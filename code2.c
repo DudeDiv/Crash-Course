@@ -5,7 +5,7 @@ int main(){
     printf("i is smaller than 15");
   }
   else {
-    printf("i is greater than 15);
+    printf("i is greater than 15");
            }
            return 0;
            }
