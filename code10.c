@@ -7,13 +7,13 @@ int main(){
   scanf("%d", &salary);
   if ((salary > 0) && (salary <= 180000)){
     tax_amount = 0.08*salary;
-    printf("Tax amount to be paid:\n", tax_amount);
+    printf("Tax amount to be paid: %d\n", tax_amount);
   } else if ((salary > 180000) && (salary <= 500000)){
     tax_amount = 0.16*salary;
-    printf("Tax amount to be paid:\n", tax_amount);
+    printf("Tax amount to be paid: %d\n", tax_amount);
   } else {
     tax_amount = 0.33*salary;
-    printf("Tax amount to be paid:\n", tax_amount);
+    printf("Tax amount to be paid: %d\n", tax_amount);
   }
     return 0;
 }
