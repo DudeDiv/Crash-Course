@@ -11,8 +11,9 @@ int main(){
   } else if ((salary > 180000) && (salary <= 500000)){
     tax_amount = 0.16*salary;
     printf("Tax amount to be paid:\n", tax_amount);
-  } else
+  } else {
     tax_amount = 0.33*salary;
     printf("Tax amount to be paid:\n", tax_amount);
-return 0;
+  }
+    return 0;
 }
